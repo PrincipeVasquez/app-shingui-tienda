@@ -1,0 +1,62 @@
+[
+    {
+        "id": 1,
+        "nombre": "Polo Juaneco",
+        "color": "blanco",
+        "talla": "Medio",
+        "cantidad": 1,
+        "precio": 45,
+        "imgUrl": "/img/polo-juaneco.png" ,
+        "hoverUrl": "/img/hover-juaneco.png" 
+    },
+    {
+        "id": 2,
+        "nombre": "Polo Coconator",
+        "color": "negro",
+        "talla": "Medio",
+        "cantidad": 1,
+        "precio": 45,
+        "imgUrl": "/img/polo-coconator.png",
+        "hoverUrl": "/img/hover-coconator.png"
+    },
+    {
+        "id": 3,
+        "nombre": "Polo Barbie Aguajera",
+        "color": "verde",
+        "talla": "Medio",
+        "cantidad": 1,
+        "precio": 45,
+        "imgUrl": "/img/polo-barbie.png",
+        "hoverUrl": "/img/hover-barbie.png"
+    },
+    {
+        "id": 4,
+        "nombre": "Polo Maracu ya",
+        "color": "amarillo",
+        "talla": "Medio",
+        "cantidad": 1,
+        "precio": 45,
+        "imgUrl": "/img/polo-maracuya.png",
+        "hoverUrl": "/img/hover-maracuya.png"
+    },
+    {
+        "id": 5,
+        "nombre": "Polo Aguaje",
+        "color": "blanco",
+        "talla": "Medio",
+        "cantidad": 1,
+        "precio": 45,
+        "imgUrl": "/img/polo-aguaje.png",
+        "hoverUrl": "/img/hover-aguaje.png"
+    },
+    {
+        "id": 6,
+        "nombre": "Polo Cyberpan",
+        "color": "azul",
+        "talla": "Medio",
+        "cantidad": 1,
+        "precio": 45,
+        "imgUrl": "/img/polo-cyberpan.png",
+        "hoverUrl": "/img/hover-cyberpan.png"
+    }
+]
