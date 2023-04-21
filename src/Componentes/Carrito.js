@@ -4,6 +4,7 @@ import { dataContext } from "./Context/dataContext";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faFile, faTrash } from '@fortawesome/free-solid-svg-icons'
 import ProductoCantidad from "./ProductoCantidad";
+import { useState, useEffect } from "react";
 
 const Carrito = () => {
     const {carrito, cambiarCarrito} = useContext(dataContext)
@@ -18,8 +19,25 @@ const Carrito = () => {
         })
 
         cambiarCarrito(nuevoCarrito);
-
     }
+
+    // APLICANDO EL LOCALSTORAGE
+
+    const carritoGuardado = localStorage.getItem('carritoSaved') ?
+                          JSON.parse(localStorage.getItem('carritoSaved'))
+                          : [];
+
+    // const carritoGuardado = JSON.parse(localStorage.getItem('carrito'));
+
+    console.log(carritoGuardado);
+    // cambiarCarrito(carritoGuardado)
+    // cambiarCarrito(carritoGuardado);
+
+    useEffect(() => {
+        localStorage.setItem('carritoSaved', JSON.stringify(carrito));
+      }, [carrito])
+
+    // FIN LOCALSTORAGE
 
     return(
         <div className="contenedor-carrito">

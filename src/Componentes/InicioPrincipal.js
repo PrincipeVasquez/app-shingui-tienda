@@ -7,7 +7,9 @@ const InicioPrincipal = () => {
     return(
         <>
             <div className="contenedor-inicio-principal">
-                <div className="imagen-polo"></div>
+                <div className="imagen-polo">
+                    <img src="/img/bg-chica.png" alt="img-polo" />
+                </div>
                 <div className="contenedor-inicio__texto">
                     <h1>POLO AGUAJE</h1>
                     <h2>BLANCO</h2>

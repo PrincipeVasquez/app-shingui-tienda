@@ -4,26 +4,26 @@ const Footer = () => {
     return(
         <div className="contenedor-footer">
             <div className="contenedor-footer__información">
-                <div class="contenedor-footer__info">
+                <div className="contenedor-footer__info">
                     <h4>Información</h4>
                     <p className="contenedor-footer__titulo">Ponte en contato con nosotros</p>
                     <p>+51 954684616</p>
                     <p>principevasquez932010@gmail.com</p>
                 </div>
-                <div class="contenedor-footer__info">
+                <div className="contenedor-footer__info">
                     <h4>Compras</h4>
                     <p className="contenedor-footer__titulo">Adquiere tus polos ñañito</p>
                     <p>Tienda</p>
                     <p>Carrito</p>
                 </div>
-                <div class="contenedor-footer__info">
+                <div className="contenedor-footer__info">
                     <h4>Contactos</h4>
                     <p className="contenedor-footer__titulo">Ubícanos</p>
                     <p>Whatsapp: 954684616</p>
                     <p>Calle Cabo Pantoja Nro. 202</p>
                     <p>Iquitos - Perú</p>
                 </div>
-                <div class="contenedor-footer__info">
+                <div className="contenedor-footer__info">
                     <h4>Redes sociales</h4>
                     <p className="contenedor-footer__titulo">Búscanos</p>
                     <p>Facebook</p>
