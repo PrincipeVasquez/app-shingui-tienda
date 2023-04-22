@@ -1033,5 +1033,139 @@ header .logo {
       transition: all .3s ease-out;
       cursor: pointer; */
     }
+
+    @media screen and (max-width: 600px) {
+      .contenedor-inicio-principal {
+        background: url(../public/img/bg-chica.png);
+        background-size: cover;
+        height: 500px;
+        display: flex;
+        align-items: center;
+        width: 100%;
+      }
+
+      .contenedor-inicio-principal img {
+        display: none;
+      }
+
+      .contenedor-inicio__texto {
+        /* display: flex;
+        flex-direction: column;
+        justify-content: center; */
+        display: inline;
+        font-family: 'Maven Pro', sans-serif;
+        margin: 0 auto;
+        width: 100%;
+      }
+
+      .contenedor-inicio__texto h1, h2, .texto {
+        display: none;
+      }
+
+      .contenedor-inicio__texto button {
+        font-size: 1rem;
+        margin: 80% 0 0 0;
+        text-align: center;
+        /* width: 100%; */
+      }
+
+      .contenedor-inicio__populares h4 {
+        font-size: 1.5rem;
+      }
+
+      .contenedor-inicio__beneficios {
+        flex-direction: column;
+      }
+
+      .contenedor-inicio__beneficio {
+        flex-direction: column;
+        justify-content: space-between;
+      }
+
+      .contenedor-inicio__icono-beneficio {
+        font-size: 4rem;
+      }
+
+      .contenedor-inicio__beneficio {
+        margin: 3% 8%;
+      }
+
+      .contenedor-inicio__beneficio p {
+        font-size: 1rem;
+        margin-top: 3%;
+      }
+
+      .contenedor-inicio h1 {
+        font-size: 1.5rem;
+      }
+
+      .contenedor-tienda h1 {
+        font-size: 1.5rem;
+      }
+
+      .contenedor-carrito h1 {
+        font-size: 1.5rem;
+      }
+
+      .contenedor-preguntas h1 {
+        font-size: 1.5rem;
+      }
+
+      .contenedor-preguntas h3 {
+        font-size: 1rem;
+      }
+
+      .contenedor-tienda__polos .contenedor-tienda__txt {
+        font-size: 1.5rem;
+      }
+
+      .contenedor-tienda__polos p {
+        font-size: 1.8rem;
+      }
+
+      .container-producto-comprar h1 {
+        font-size: 1.5rem;
+      }
+
+      .container-producto-comprar__detalles {
+        flex-direction: column;
+      }
+
+      .container-producto-comprar__form-titulo {
+        font-size: 2rem;
+        text-align: center;
+        margin-top: 4%;
+      }
+
+      .container-producto-comprar__form-titulo-resto {
+        font-size: 1.5rem;
+      }
+
+      .container-producto-comprar__form-a {
+        font-size: 1.2rem;
+      }
+
+      .container-producto-comprar__form-radio label {
+        font-size: 1rem;
+      }
+
+      .container-producto-comprar__color p {
+        font-size: 1rem;
+      }
+
+      .container-producto-comprar__form-detalles p {
+        font-size: 1rem;
+      }
+
+      .precio p {
+        font-size: 2rem;
+      }
+
+      .container-producto-comprar__form .button {
+        font-size: 1rem;
+        padding: 5%;
+        width: 70%;
+      }
+    }
   }
 }
